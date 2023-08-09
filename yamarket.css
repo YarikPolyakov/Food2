@@ -523,3 +523,106 @@ text-transform: uppercase;
 background-color: #303030;
 border-radius: 18px;
 }
+
+/*------------Social---------------*/
+.social{
+    padding-bottom: 90px;
+}
+.social h1{
+    color: #D9D9D9;
+text-align: center;
+font-family: Helvetica Neue;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 90px; /* 250% */
+letter-spacing: 7.2px;
+text-align: center;
+margin-top: 120px;
+margin-bottom: 90px;
+}
+.dop .date{
+    color: #737373;
+font-family: Helvetica Neue;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 214.286% */
+padding-left: 30px;
+padding-right: 30px;
+}
+.dop .author_text{
+    color: var(--primary, #34C759);
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 214.286% */
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+.dop .text_bot{
+    color: rgba(255, 255, 255, 0.70);
+font-family: Helvetica Neue;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 214.286% */
+padding-left: 30px;
+padding-right: 30px;
+}
+.dop .text_bot{
+    overflow: scroll;
+    max-height: 120px;
+}
+
+.dop{
+    background-color: #252525;
+    margin-right: 30px;
+    border-radius: 12px;
+}
+.dop .top{
+    padding-top: 31px;
+    padding-left: 31px;
+    padding-right: 25px;
+    padding-bottom: 23px;
+    display: flex;
+}
+.dop .top p{
+    margin-top: 10px;
+    margin-left: 20px;
+    min-width: 106px;
+    margin-right: 34px;
+    color: #BFBFBF;
+font-family: Helvetica Neue;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 214.286% */
+}
+
+.dop .top .follow{   
+    color: #fff;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px; /* 400% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 5px 19px;
+    border: 1px solid gray;
+    border-radius: 23px;
+    background-color: #252525;
+    opacity: 0.5;
+}
+
+.dop .top .znach{
+    padding-top: 0px;
+    border: none;
+    background: none;
+    color: #737373;
+    font-size: 35px;
+}
