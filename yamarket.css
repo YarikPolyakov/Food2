@@ -550,6 +550,11 @@ font-weight: 400;
 line-height: 30px; /* 214.286% */
 padding-left: 30px;
 padding-right: 30px;
+
+
+}
+.dop .bot img{
+    max-width: 120px;
 }
 .dop .author_text{
     color: var(--primary, #34C759);
