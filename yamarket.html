@@ -1,23 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ya-life.market</title>
-    <link rel="stylesheet" href="yamarket.css">
+    <link rel="stylesheet" href="css/yamarket.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 <body>
     <section class="vse">
+        <div class="mod" id="mod">
+            <button class="close" id="close"><i class="fa-solid fa-xmark"></i></button>
+            <div class="items">
+                <ul>
+                    <li><a>Menu</a></li>
+                    <li><a>Recipes</a></li>
+                    <li><a>Chefs</a></li>
+                    <li><a>Contacts</a></li>
+                </ul>
+        </div>
+        </div>
         <section class="header">
             <div class="containeer">
                 <div class="row">
                     <div class="col-7 hs">
-                        <img src="Logo.png" alt="">
+                        <img src="img/Logo.png" alt="">
                         <p>Ya-lifee.restaurant</p>
                         </div>
                         <div class="col-4 m">
@@ -27,32 +38,34 @@
                                 <li><a>Chefs</a></li>
                                 <li><a>Contacts</a></li>
                             </ul>
+                            <button id="btn" class="menu-btn"><i class="fa-solid fa-bars"></i></button>
                         </div>
                     </div>
                 </div>
+                <hr> 
             </section>
-            <hr>
+       
 
             <section class="ff">
                 <div class="text">
                     <h1>Your favourite food <br> delivered hot & fresh</h1>
-                    <p>HEALTHY SWITCHER chefs do all the prep work, like peeling, chopping & <br> marinating, so you can cook a fresh homemade dinner in just 15 minutes.</p>
+                    <p class="health">HEALTHY SWITCHER chefs do all the prep work, like peeling, chopping & <br> marinating, so you can cook a fresh homemade dinner in just 15 minutes.</p>
                     <button>Order Now</button>
                 </div>
                 <div class="container">
                     <div class="row">
                         <div class="col-4 waatch">
-                            <img src="ic_watch_later.png" alt="">
+                            <img src="img/ic_watch_later.png" alt="">
                             <p class="wh">Today 10:00 am - 7:00 pm</p>
                             <p class="gr">Working hours</p>
                     </div>
                     <div class="col-4 near">
-                        <img src="ic_near_me.png" alt="">
+                        <img src="img/ic_near_me.png" alt="">
                         <p class="wh">Krasnaya 33</p>
                         <p class="gr">Get Directions</p>
                     </div>
                     <div class="col-4 call">
-                        <img src="ic_call.png" alt="">
+                        <img src="img/ic_call.png" alt="">
                         <p class="wh">+7(909)456 71 23</p>
                         <p class="gr">Call Online</p>
                     </div>
@@ -68,10 +81,15 @@
                                     <h1>The Basics Of Healthy Food</h1>
                                     <p>In aliqua ea ullamco ad est ex non deserunt nulla. Consectetur sint ea aliquip aliquip consectetur <br>
                                          voluptate est. Eu minim dolore laboris enim mollit voluptate irure esse aliquip.</p>
-                                    <button class="one"><img src="Icon.png" alt=""></button>
-                                    <img src="placeholder (1).png" class="right">
-                                    <img src="placeholder (2).png" class="left">
-                                    <button class="two"><img src="ico.png" alt=""></button>
+                                         <div class="col-6">
+                                            <button class="one"><img src="img/Icon.png" alt=""></button>
+                                            <img src="img/placeholder (1).png" class="right">
+                                         </div>
+                                         <div class="col-6">
+                                            <img src="img/placeholder (2).png" class="left">
+                                            <button class="two"><img src="img/ico.png" alt=""></button>
+                                         </div>
+
                                 </div>
             </section>
             <section>
@@ -111,63 +129,63 @@
                 <div class="container">
                     <div class="row">
                         <div class="col in">
-                            <img src="placeholder (2).png" alt="">
+                            <img src="img/placeholder (2).png" alt="">
                             <h2>Featured Meal</h2>
                             <p>Served with french fries + drink</p>
                             <p>Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add whopper patty, Add Tender crisp patty and more...</p>
                             <div class="b">
                                 
-                                <img src="ic_star.png" alt=""><img src="ic_star.png" alt=""><img src="ic_star.png" alt=""><img src="ic_star_half.png" alt=""><img src="ic_star_border.png" alt="">
+                                <img src="img/ic_star.png" alt=""><img src="img/ic_star.png" alt=""><img src="img/ic_star.png" alt=""><img src="img/ic_star_half.png" alt=""><img src="img/ic_star_border.png" alt="">
                                 <button>ORDER</button>
                             </div>   
                         </div>
                         <div class="col in">
-                            <img src="placeholder (3).png" alt="">
+                            <img src="img/placeholder (3).png" alt="">
                             <h2>Featured Meal</h2>
                             <p>Served with french fries + drink</p>
                                <p>Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add whopper patty, Add Tender crisp patty and more...</p>
                                <div class="b">
-                                <img src="ic_star.png" alt=""><img src="ic_star.png" alt=""><img src="ic_star.png" alt=""><img src="ic_star_half.png" alt=""><img src="ic_star_border.png" alt="">
+                                <img src="img/ic_star.png" alt=""><img src="img/ic_star.png" alt=""><img src="img/ic_star.png" alt=""><img src="img/ic_star_half.png" alt=""><img src="img/ic_star_border.png" alt="">
                                 <button>ORDER</button>
                             </div>   
                         </div>
                         <div class="col in">
-                            <img src="placeholder (4).png" alt="">
+                            <img src="img/placeholder (4).png" alt="">
                             <h2>Featured Meal</h2>
                             <p>Served with french fries + drink</p>
                             <p>Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add whopper patty, Add Tender crisp patty and more...</p>
                             <div class="b">
-                                <img src="ic_star.png" alt=""><img src="ic_star.png" alt=""><img src="ic_star.png" alt=""><img src="ic_star_half.png" alt=""><img src="ic_star_border.png" alt="">
+                                <img src="img/ic_star.png" alt=""><img src="img/ic_star.png" alt=""><img src="img/ic_star.png" alt=""><img src="img/ic_star_half.png" alt=""><img src="img/ic_star_border.png" alt="">
                                 <button>ORDER</button>
                             </div>   
                         </div>
                         <div class="col in">
-                            <img src="placeholder (5).png" alt="">
+                            <img src="img/placeholder (5).png" alt="">
                             <h2>Featured Meal</h2>
                             <p>Served with french fries + drink</p>
                             <p>Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add whopper patty, Add Tender crisp patty and more...</p>
                             <div class="b">
-                                <img src="ic_star.png" alt=""><img src="ic_star.png" alt=""><img src="ic_star.png" alt=""><img src="ic_star_half.png" alt=""><img src="ic_star_border.png" alt="">
+                                <img src="img/ic_star.png" alt=""><img src="img/ic_star.png" alt=""><img src="img/ic_star.png" alt=""><img src="img/ic_star_half.png" alt=""><img src="img/ic_star_border.png" alt="">
                                 <button>ORDER</button>
                             </div>   
                         </div>
                         <div class="col in">
-                            <img src="placeholder (6).png" alt="">
+                            <img src="img/placeholder (6).png" alt="">
                             <h2>Featured Meal</h2>
                             <p>Served with french fries + drink</p>
                             <p>Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add whopper patty, Add Tender crisp patty and more...</p>
                             <div class="b">
-                                <img src="ic_star.png" alt=""><img src="ic_star.png" alt=""><img src="ic_star.png" alt=""><img src="ic_star_half.png" alt=""><img src="ic_star_border.png" alt="">
+                                <img src="img/ic_star.png" alt=""><img src="img/ic_star.png" alt=""><img src="img/ic_star.png" alt=""><img src="img/ic_star_half.png" alt=""><img src="img/ic_star_border.png" alt="">
                                 <button>ORDER</button>
                             </div>   
                         </div>
                         <div class="col in">
-                            <img src="placeholder (7).png" alt="">
+                            <img src="img/placeholder (7).png" alt="">
                             <h2>Featured Meal</h2>
                             <p>Served with french fries + drink</p>
                             <p>Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add whopper patty, Add Tender crisp patty and more...</p>
                             <div class="b">
-                                <img src="ic_star.png" alt=""><img src="ic_star.png" alt=""><img src="ic_star.png" alt=""><img src="ic_star_half.png" alt=""><img src="ic_star_border.png" alt="">
+                                <img src="img/ic_star.png" alt=""><img src="img/ic_star.png" alt=""><img src="img/ic_star.png" alt=""><img src="img/ic_star_half.png" alt=""><img src="img/ic_star_border.png" alt="">
                                 <button>ORDER</button>
                             </div>   
                         </div>
@@ -180,7 +198,7 @@
                     <div class="row">
                         <h1>This month's chefs</h1>
                             <div class="col m">
-                                <img src="Avatar.png" alt="">
+                                <img src="img/Avatar.png" alt="">
                                 <div class="teg">
                                     <p class="pe">Chuprakov Zachar</p>
                                     <p>Chef of the cold</p>
@@ -188,7 +206,7 @@
 
                             </div>
                             <div class="col n">
-                                <img src="Avatar (2).png" alt="">
+                                <img src="img/Avatar (2).png" alt="">
                                 <div class="teg">
                                     <p class="pe">Polyakov Yaroslav</p>
                                     <p>Chef of the cold</p>
@@ -196,7 +214,7 @@
 
                             </div>
                             <div class="col x">
-                                <img src="Avatar (1).png" alt="">
+                                <img src="img/Avatar (1).png" alt="">
                                 <div class="teg">
                                     <p class="pe">Annette Cooper</p>
                                     <p>Сhef macro kitchen</p>
@@ -206,9 +224,9 @@
 
                     </div>
                     <div class="row">
-                        <div class="col"><img src="1.png" alt=""><img src="2.png" alt="" class="q"><img src="3.png" alt=""></div>
-                        <div class="col"><img src="4.png" alt=""><img src="5.png" alt="" class="q"><img src="6.png" alt=""></div>
-                        <div class="col"><img src="7.png" alt=""><img src="8.png" alt="" class="q"><img src="9.png" alt=""></div>
+                        <div class="col"><img src="img/1.png" alt=""><img src="img/2.png" alt="" class="q"><img src="img/3.png" alt=""></div>
+                        <div class="col"><img src="img/4.png" alt=""><img src="img/5.png" alt="" class="q"><img src="img/6.png" alt=""></div>
+                        <div class="col"><img src="img/7.png" alt=""><img src="img/8.png" alt="" class="q"><img src="img/9.png" alt=""></div>
                     </div>
                 </div>
             </section>
@@ -293,12 +311,12 @@
                     </div>
                     <hr>
                     <div class="bot">
-                        <img src="placeholder (1).png" alt="">
-                        <img src="placeholder (2).png" alt="">
-                        <img src="placeholder (3).png" alt="">
-                        <img src="placeholder (4).png" alt="">
-                        <img src="placeholder (5).png" alt="">
-                        <img src="placeholder (6).png" alt="">
+                        <img src="img/placeholder (1).png" alt="">
+                        <img src="img/placeholder (2).png" alt="">
+                        <img src="img/placeholder (3).png" alt="">
+                        <img src="img/placeholder (4).png" alt="">
+                        <img src="img/placeholder (5).png" alt="">
+                        <img src="img/placeholder (6).png" alt="">
                     </div>
                 </div>
                 <div class="col dop">
@@ -321,6 +339,7 @@
             </div>
         </div>
     </section>
+    <script src="js/main.js"></script>
     <script src="https://kit.fontawesome.com/d2d810dfd5.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
