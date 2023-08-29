@@ -223,7 +223,6 @@ letter-spacing: -0.2px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
     color: white;
-    margin-left: 30px;
     padding: 17px;
     }
     .c h1{
@@ -240,7 +239,6 @@ letter-spacing: -0.2px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
     color: white;
-    margin-left: 30px;
     padding: 17px;
 }
 .f h1{
@@ -257,7 +255,6 @@ text-transform: capitalize;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
     color: white;
-    margin-left: 30px;
     padding: 17px;
 }
 .t h1{
@@ -712,4 +709,36 @@ line-height: 30px; /* 214.286% */
     .m button{
         display: block;
     }
+
+    .text h1{
+        font-size: 55px;
+    }
+}
+.con{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 13px;
+}
+.con p{
+    color: #737373;
+}
+.kon{
+    
+    text-align: center;
+    display: flex;
+    padding-top: 41px;
+    margin:  0 auto;
+    justify-content: center;
+
+   
+}
+.kon p{
+    color: #34C759;
+  margin-top: 5px;
+    margin-left: 9px;
+
+}
+.kon img{
+
+
 }
