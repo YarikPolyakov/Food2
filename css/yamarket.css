@@ -738,7 +738,16 @@ line-height: 30px; /* 214.286% */
     margin-left: 9px;
 
 }
-.kon img{
-
-
+@media(max-width:900px){
+    body{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .p{
+        width: 50px;
+    }
 }
+html, body{
+    overflow-x: hidden;
+}
+
